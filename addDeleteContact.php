@@ -36,7 +36,7 @@ method=GET>
 </table>
 </form> <p>';
 }
-if ( $mode=="add")
+if ( $mode=="added")
 {
 mysql_query ("INSERT INTO address (name, phone, email, address) VALUES ('$name', '$phone', '$email', '$address')");
 }
